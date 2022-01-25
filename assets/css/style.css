@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Permanent+Marker&display=swap');
+
+/*------------------------------------general site decoration*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+nav li {
+    font-size: 1.2em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+li, a {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+/*------------------------------------colors */
+
+.logo-name {
+    color: #fafafa;
+}
+
+.nav-button li a {
+    color: rgb(255, 0, 64);
+}
+
+.socials li a i {
+    color: rgb(255, 0, 64);
+}
+
+li, a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+/*-------------------------------------header properties*/
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(192, 1, 42), rgb(255, 70, 70));
+    background-size: cover;
+    align-items: center;
+}
+
+/*-------------------------------------logo/branding*/
+
+.logo-name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+/*-----------------------------------nav list*/
+
+nav {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    padding: 15px 10px;
+    border-radius: 15px 15px 5px 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px black;
+}
+
+/*-------------------------------------social buttons*/
+
+.socials {
+    position: relative;
+    padding-right: 15px;
+}
+
+.socials-pos {
+    position: relative;
+}
+
+.socials li {
+    display: inline-block;
+    padding: 5px 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px black;
+}
+
+.socials li a {
+    font-size: 20px;
+}
