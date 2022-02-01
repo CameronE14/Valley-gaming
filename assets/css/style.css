@@ -6,8 +6,20 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    
 }
+body {
+    height: 100%;
+}
+
+body p {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+
 
 .uppercase {
     text-transform: uppercase;
@@ -19,7 +31,8 @@ nav li {
     font-weight: 700;
 }
 
-li, a {
+li,
+a {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -39,7 +52,8 @@ li, a {
     color: rgb(255, 0, 64);
 }
 
-li, a {
+li,
+a {
     color: #fafafa;
     text-decoration: none;
 }
@@ -59,11 +73,20 @@ header {
 
 .logo-name {
     font-family: "Montserrat", sans-serif;
-    font-size: 35px;
+    font-size: 2.2em;
     font-weight: 700;
     text-shadow: 2px 2px black;
     cursor: pointer;
     padding-left: 15px;
+}
+
+.logo-name hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.815);
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+.logo-name span {
+    font-size: 10px;
 }
 
 /*-----------------------------------nav list*/
@@ -71,6 +94,11 @@ header {
 nav {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+}
+
+nav ul {
+    border: 10px;
+    margin-right: 10px;
 }
 
 nav li {
@@ -92,16 +120,110 @@ nav li {
 
 .socials-pos {
     position: relative;
+    margin-top: 27px;
+
 }
 
 .socials li {
     display: inline-block;
-    padding: 5px 5px;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px black;
+
+
 }
 
 .socials li a {
     font-size: 20px;
+    padding: 5px 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 1px 1px black;
+}
+
+/*--------------------------------------------------------footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.76);
+    height: 5vh;
+}
+
+.footer-logo {
+    font-size: 10px;
+    display: inline-block;
+}
+
+.bottomlinks {
+    display: inline-block;
+}
+
+.bottomlinks a {
+    padding-right: 5px;
+}
+
+.socials-footer {
+    display: inline-block;
+    position: relative;
+}
+
+.socials-footer li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+/*-------------------------------------------------------------main*/
+main {
+    display: flex;
+}
+
+.main-article {
+    width: 65%;
+    justify-content: left;
+    margin-left: 10px;
+    text-align: center;
+}
+
+/*-----------------------------------------------------------suggested*/
+.suggested {
+    justify-content: right;
+    width: 35%;
+    border-left: 10px solid rgba(0, 0, 0, 0.856);
+    border-radius: 15px 1px 1px 15px;
+    margin: 5px 0;
+}
+
+.suggested p {
+    margin-left: 10px;
+}
+
+.suggested hr {
+    width: 85%;
+    border-top: 3px dashed rgba(0, 0, 0, 0.822);
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.hot-take {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*-----------------------------------media queries*/
+@media screen and (max-width: 900px) {
+    .socials {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .logo-name {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .logo-name {
+        font-size: 1.2em;
+    }
 }
