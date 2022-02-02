@@ -7,6 +7,7 @@
     text-decoration: none;
     list-style: none;
 }
+
 body {
     height: 100%;
 }
@@ -15,11 +16,12 @@ body p {
     font-family: "Montserrat", sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h4,
+button {
     font-family: "Montserrat", sans-serif;
 }
-
-
 
 .uppercase {
     text-transform: uppercase;
@@ -127,7 +129,6 @@ nav li {
 .socials li {
     display: inline-block;
 
-
 }
 
 .socials li a {
@@ -138,41 +139,34 @@ nav li {
     box-shadow: 1px 1px black;
 }
 
-/*--------------------------------------------------------footer*/
-footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.76);
-    height: 5vh;
-}
-
-.footer-logo {
-    font-size: 10px;
-    display: inline-block;
-}
-
-.bottomlinks {
-    display: inline-block;
-}
-
-.bottomlinks a {
-    padding-right: 5px;
-}
-
-.socials-footer {
-    display: inline-block;
-    position: relative;
-}
-
-.socials-footer li {
-    display: inline-block;
-    padding-right: 10px;
-    padding-top: 2px;
-}
-
 /*-------------------------------------------------------------main*/
+.fresh {
+    width: 80px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.658);
+    margin: 0;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.fresh p {
+    color: #fafafa;
+}
+
 main {
     display: flex;
+}
+
+.hero-image {
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.hero-image img {
+    width: 95%;
+    box-shadow: 4px 4px black;
+    border-radius: 30px 3px 30px 3px;
 }
 
 .main-article {
@@ -189,10 +183,49 @@ main {
     border-left: 10px solid rgba(0, 0, 0, 0.856);
     border-radius: 15px 1px 1px 15px;
     margin: 5px 0;
+    text-align: center;
 }
 
-.suggested p {
+.sgst-thumbs {
     margin-left: 10px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumb1 {
+    background-image: url(/assets/images/fn1wbuvikoacxt4zvfxl.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    border: 3px solid black;
+    margin: 5px;
+}
+
+.thumb2 {
+    background-image: url(/assets/images/ar88u.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    border: 3px solid black;
+    margin: 5px;
+}
+.thumb3 {
+    background-image: url(/assets/images/ar88u.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    border: 3px solid black;
+    margin: 5px;
+}
+
+.thumb4 {
+    background-image: url(/assets/images/ar88u.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    border: 3px solid black;
+    margin: 5px;
 }
 
 .suggested hr {
@@ -209,6 +242,39 @@ main {
     font-family: "Montserrat", sans-serif;
 }
 
+/*--------------------------------------------------------footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.76);
+    height: 5vh;
+}
+
+.footer-logo {
+    font-size: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bottomlinks {
+    display: inline-block;
+}
+
+.bottomlinks a {
+    padding-right: 5px;
+}
+
+.socials-footer {
+    display: inline-block;
+
+}
+
+.socials-footer li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
 /*-----------------------------------media queries*/
 @media screen and (max-width: 900px) {
     .socials {
@@ -220,10 +286,131 @@ main {
     .logo-name {
         font-size: 1.2em;
     }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-@media screen and (max-width: 350px) {
+/*---------------------------------------------------------small phone*/
+@media screen and (max-width: 400px) {
+
+    header {
+        width: cover;
+        height: 8vh;
+    }
+
     .logo-name {
+        font-size: 0.8em;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .fresh {
+        width: 50px;
+        height: 15px;
+        background-color: rgba(0, 0, 0, 0.658);
+
+    }
+
+    .fresh p {
+        color: #fafafa;
+        font-size: 7px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .main-article {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+
+    .hero-image img {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .suggested {
+        width: 100%;
+        border-top: 5px solid rgba(0, 0, 0, 0.726);
+        border-radius: 0;
+        border-left: none;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    h2 {
         font-size: 1.2em;
+    }
+
+    .sgst-thumbs {
+        height: 340px;
+        margin: 0;
+    }
+
+    .sgst-thumbs span {
+        color: #fafafa;
+        background-color: rgb(0, 0, 0);
+        text-align: left;
+        float: left;
+        padding: 6px 10px 14px 0px;
+        box-shadow: 2px 2px rgb(255, 255, 255);
+    }
+
+    .sgst-thumbs p {
+        margin-left: 5px;
+    }
+
+    .thumb1,
+    .thumb2 {
+        width: 100%;
+        height: 120px;
+        display: inline-block;
+        padding-top: 20px;
+    }
+
+    .thumb3,
+    .thumb4 {
+        display: none;
+    }
+    
+    .more-btn button {
+        background-color: rgba(0, 0, 0, 0.658);
+        color: #fafafa;
+        border-radius: 5px 8px;
+        float: left;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .more-btn button:active {
+        background-color: #000000e1;
+        box-shadow: 0 2px #666;
+        transform: translateY(2px);
+    }
+
+    .bottomlinks a {
+        font-size: 0.6em;
+        padding-right: 10px;
+    }
+
+    .footer-logo .logo-name {
+        font-size: 2em;
     }
 }
