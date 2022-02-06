@@ -289,6 +289,10 @@ footer {
     .sgst-thumbs .thumb-inside-text {
         display: none;
     }
+
+    .more-btn {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 769px) {
@@ -297,7 +301,115 @@ footer {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+    header {
+        width: cover;
+        height: 12vh;
+    }
+
+    .logo-name {
+        font-size: 1.5em;
+        margin-left: 10px;
+        padding: 0;
+    }
+
+    .fresh {
+        width: 50px;
+        height: 15px;
+        background-color: rgba(0, 0, 0, 0.658);
+        margin-left: 0.5em;
+
+    }
+
+    .fresh p {
+        color: #fafafa;
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .main-article {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+
+    .hero-image img {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        box-shadow: 0px 3px rgb(0 0 0 / 80%);
+    }
+
+    #flav-text {
+        margin-left: 5px;
+    }
+
+    .suggested {
+        width: 100%;
+        border-top: 3px solid rgba(0, 0, 0, 0.726);
+        border-radius: 0;
+        border-left: none;
+        padding-top: 10px;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .sgst-thumbs {
+        height: 340px;
+        margin: 0;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+
+    .sgst-thumbs span {
+        color: #000000;
+        background-color: rgba(255, 255, 255, 0.856);
+        text-align: left;
+        float: left;
+        box-shadow: 2px 2px rgb(36, 35, 35);
+        margin-right: 65%;
+        border-radius: 5px 10px;
+    }
+
+    .sgst-thumbs p {
+        margin-left: 5px;
+        font-size: 1.2em;
+    }
+
+    .sgst-thumbs .thumb-outside-text {
+        display: none;
+    }
+
+    .thumb1,
+    .thumb2 {
+        height: 120px;
+        padding-top: 20px;
+        box-shadow: 0px 3px rgb(0 0 0 / 80%);
+        margin-left: 5px;
+    }
+    .thumb1 {
+        width: 40vw;
+    }
+    .thumb2 {
+        width: 40vw;
+    }
+    
     .more-btn {
         display: none;
     }
@@ -312,7 +424,7 @@ footer {
     }
 
     .logo-name {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     .nav-button {
