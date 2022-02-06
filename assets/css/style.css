@@ -19,6 +19,7 @@ body p {
 h1,
 h2,
 h4,
+h7,
 button {
     font-family: "Montserrat", sans-serif;
 }
@@ -96,6 +97,7 @@ header {
 nav {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    size: 1em;
 }
 
 nav ul {
@@ -144,17 +146,20 @@ nav li {
     width: 80px;
     height: 30px;
     background-color: rgba(0, 0, 0, 0.658);
-    margin: 0;
+    margin-left: 65px;
     font-size: 0.8em;
     text-align: center;
+    border-radius: 38px 37px 31px 11px;
 }
 
 .fresh p {
     color: #fafafa;
+    text-align: center;
 }
 
 main {
     display: flex;
+    justify-content: space-around;
 }
 
 .hero-image {
@@ -164,16 +169,17 @@ main {
 }
 
 .hero-image img {
-    width: 95%;
-    box-shadow: 4px 4px black;
+    width: 100%;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.801);
     border-radius: 30px 3px 30px 3px;
 }
 
 .main-article {
     width: 65%;
     justify-content: left;
-    margin-left: 10px;
-    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
 }
 
 /*-----------------------------------------------------------suggested*/
@@ -187,54 +193,57 @@ main {
 }
 
 .sgst-thumbs {
-    margin-left: 10px;
-    height: 500px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.sgst-thumbs p {
+    margin-left: 15px;
+    font-size: 1.2em;
+}
+
+.thumb-outside-text {
+    width: 206px;
 }
 
 .thumb1 {
-    background-image: url(/assets/images/fn1wbuvikoacxt4zvfxl.jpg);
     height: 200px;
     width: 200px;
-    background-position: center;
+    background-position: top;
     border: 3px solid black;
     margin: 5px;
+    cursor: pointer;
+    border-radius: 30px 3px 30px 3px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.801);
+}
+
+#thumb1-pic {
+    background-image: url(/assets/images/uncharted.jpg);
 }
 
 .thumb2 {
-    background-image: url(/assets/images/ar88u.jpg);
     height: 200px;
     width: 200px;
-    background-position: center;
+    background-position: top;
     border: 3px solid black;
     margin: 5px;
-}
-.thumb3 {
-    background-image: url(/assets/images/ar88u.jpg);
-    height: 200px;
-    width: 200px;
-    background-position: center;
-    border: 3px solid black;
-    margin: 5px;
+    cursor: pointer;
+    border-radius: 30px 3px 30px 3px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.801);
 }
 
-.thumb4 {
-    background-image: url(/assets/images/ar88u.jpg);
-    height: 200px;
-    width: 200px;
-    background-position: center;
-    border: 3px solid black;
-    margin: 5px;
+#thumb2-pic {
+    background-image: url(/assets/images/chief.jpg);
 }
 
 .suggested hr {
     width: 85%;
     border-top: 3px dashed rgba(0, 0, 0, 0.822);
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 5px;
-
 }
 
 .hot-take {
@@ -276,25 +285,26 @@ footer {
 }
 
 /*-----------------------------------media queries*/
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 770px) {
+    .sgst-thumbs .thumb-inside-text {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 769px) {
     .socials {
         display: none;
     }
 }
 
-@media screen and (max-width: 750px) {
-    .logo-name {
-        font-size: 1.2em;
-    }
-
-    main {
-        display: flex;
-        flex-direction: column;
+@media screen and (min-width: 768px) {
+    .more-btn {
+        display: none;
     }
 }
 
-/*---------------------------------------------------------small phone*/
-@media screen and (max-width: 400px) {
+/*---------------------------------------------------------phone*/
+@media screen and (max-width: 426px) {
 
     header {
         width: cover;
@@ -313,12 +323,13 @@ footer {
         width: 50px;
         height: 15px;
         background-color: rgba(0, 0, 0, 0.658);
+        margin-left: 0.5em;
 
     }
 
     .fresh p {
         color: #fafafa;
-        font-size: 7px;
+        font-size: 0.9em;
         text-align: center;
     }
 
@@ -344,11 +355,20 @@ footer {
         width: 100%;
         border-radius: 0;
         margin: 0;
+        box-shadow: 0px 3px rgb(0 0 0 / 80%);
+    }
+
+    #flav-text {
+        margin-left: 5px;
+    }
+
+    #flav-text p {
+        display: none;
     }
 
     .suggested {
         width: 100%;
-        border-top: 5px solid rgba(0, 0, 0, 0.726);
+        border-top: 3px solid rgba(0, 0, 0, 0.726);
         border-radius: 0;
         border-left: none;
         padding-top: 10px;
@@ -362,47 +382,49 @@ footer {
     .sgst-thumbs {
         height: 340px;
         margin: 0;
+        display: inherit;
     }
 
     .sgst-thumbs span {
-        color: #fafafa;
-        background-color: rgb(0, 0, 0);
+        color: #000000;
+        background-color: rgba(255, 255, 255, 0.856);
         text-align: left;
         float: left;
-        padding: 6px 10px 14px 0px;
-        box-shadow: 2px 2px rgb(255, 255, 255);
+        box-shadow: 2px 2px rgb(36, 35, 35);
+        margin-right: 65%;
+        border-radius: 5px 10px;
     }
 
     .sgst-thumbs p {
         margin-left: 5px;
+        font-size: 1.2em;
+    }
+
+    .sgst-thumbs .thumb-outside-text {
+        display: none;
     }
 
     .thumb1,
     .thumb2 {
-        width: 100%;
+        width: 95%;
         height: 120px;
         display: inline-block;
         padding-top: 20px;
+        box-shadow: 0px 3px rgb(0 0 0 / 80%);
+        margin-left: 5px;
     }
 
-    .thumb3,
-    .thumb4 {
-        display: none;
-    }
-    
-    .more-btn button {
+    .more-btn{
         background-color: rgba(0, 0, 0, 0.658);
         color: #fafafa;
-        border-radius: 5px 8px;
-        float: left;
-        margin-left: 10px;
         font-size: 15px;
+        width: 100%;
     }
 
-    .more-btn button:active {
+    .more-btn:active {
         background-color: #000000e1;
         box-shadow: 0 2px #666;
-        transform: translateY(2px);
+        transform: translateY(1px);
     }
 
     .bottomlinks a {
