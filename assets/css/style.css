@@ -28,17 +28,8 @@ button {
     text-transform: uppercase;
 }
 
-nav li {
-    font-size: 1.2em;
+footer {
     font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-}
-
-li,
-a {
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
 }
 
 /*------------------------------------colors */
@@ -80,7 +71,7 @@ header {
     font-weight: 700;
     text-shadow: 2px 2px black;
     cursor: pointer;
-    padding-left: 15px;
+    margin-left: 5px;
 }
 
 .logo-name hr {
@@ -88,31 +79,24 @@ header {
     background-color: rgba(0, 0, 0, 0.705);
 }
 
-.logo-name span {
-    font-size: 10px;
-}
-
 /*-----------------------------------nav list*/
 
 nav {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    size: 1em;
 }
 
 nav ul {
-    border: 10px;
     margin-right: 10px;
 }
 
-nav li {
-    display: inline-block;
+nav ul li {
+    display: inline-flex;
+    font-size: 0.5em;
+    background: #fafafa;
+    border: 10px solid #fafafa;
+    border-radius: 21px 61px 35px 23px;
     margin-top: 10px;
-    margin-bottom: 1px;
-    padding: 15px 10px;
-    border-radius: 15px 15px 5px 5px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px black;
 }
 
 /*-------------------------------------social buttons*/
@@ -260,7 +244,7 @@ footer {
 }
 
 .footer-logo {
-    font-size: 10px;
+    font-size: 0.6em;
     display: inline-block;
     cursor: pointer;
 }
@@ -308,9 +292,7 @@ footer {
     }
 
     .logo-name {
-        font-size: 1.5em;
-        margin-left: 10px;
-        padding: 0;
+        font-size: 1.2em;
     }
 
     .fresh {
@@ -412,6 +394,9 @@ footer {
     
     .more-btn {
         display: none;
+    }
+    .footer-logo {
+        font-size: 0.8em;
     }
 }
 
@@ -544,7 +529,7 @@ footer {
         padding-right: 10px;
     }
 
-    .footer-logo .logo-name {
-        font-size: 2em;
+    .footer-logo {
+        font-size: 1em;
     }
 }
