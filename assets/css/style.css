@@ -97,6 +97,8 @@ nav ul li {
     border: 10px solid #fafafa;
     border-radius: 21px 61px 35px 23px;
     margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px black;
 }
 
 /*-------------------------------------social buttons*/
@@ -269,7 +271,7 @@ footer {
 }
 
 /*-----------------------------------media queries*/
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 769px) {
     .sgst-thumbs .thumb-inside-text {
         display: none;
     }
@@ -279,13 +281,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 769px) {
-    .socials {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     header {
         width: cover;
         height: 12vh;
@@ -293,6 +289,16 @@ footer {
 
     .logo-name {
         font-size: 1.2em;
+    }
+
+    nav ul li {
+        font-size: 0.6em;
+        border: 9px solid #fafafa;
+        border-radius: 21px 61px 35px 23px;
+    }
+
+    .socials {
+        display: none;
     }
 
     .fresh {
