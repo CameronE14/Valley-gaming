@@ -56,22 +56,21 @@ a {
 
 header {
     display: flex;
-    position: relative;
     justify-content: space-between;
     background-image: linear-gradient(to right, rgb(192, 1, 42), rgb(255, 70, 70));
     background-size: cover;
-    align-items: center;
+    align-items: flex-end
 }
 
 /*-------------------------------------logo/branding*/
 
 .logo-name {
     font-family: "Montserrat", sans-serif;
-    font-size: 2.2em;
+    font-size: 30px;
     font-weight: 700;
-    text-shadow: 2px 2px black;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.692);
     cursor: pointer;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .logo-name hr {
@@ -92,11 +91,12 @@ nav ul {
 
 nav ul li {
     display: inline-flex;
-    font-size: 0.5em;
+    font-size: 15px;
     background: #fafafa;
     border: 10px solid #fafafa;
-    border-radius: 21px 61px 35px 23px;
+    border-radius: 10px;
     margin-top: 10px;
+    margin-bottom: 2px;
     cursor: pointer;
     box-shadow: 1px 1px black;
 }
@@ -104,14 +104,11 @@ nav ul li {
 /*-------------------------------------social buttons*/
 
 .socials {
-    position: relative;
     padding-right: 15px;
 }
 
 .socials-pos {
-    position: relative;
-    margin-top: 27px;
-
+    margin-bottom: 5px;
 }
 
 .socials li {
@@ -180,11 +177,16 @@ main {
 
 .sgst-thumbs {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
     text-align: left;
 }
 
+/*-------------.thumbs-inline {
+    display: flex;
+    flex-wrap: wrap;
+}
+-------------*/
 .sgst-thumbs p {
     margin-left: 15px;
     font-size: 1.2em;
@@ -281,10 +283,10 @@ footer {
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     header {
         width: cover;
-        height: 12vh;
+        height: 5vh;
     }
 
     .logo-name {
@@ -294,7 +296,7 @@ footer {
     nav ul li {
         font-size: 0.6em;
         border: 9px solid #fafafa;
-        border-radius: 21px 61px 35px 23px;
+        
     }
 
     .socials {
@@ -411,7 +413,7 @@ footer {
 
     header {
         width: cover;
-        height: 8vh;
+        height: 5vh;
     }
 
     .logo-name {
