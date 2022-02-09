@@ -39,11 +39,11 @@ footer {
 }
 
 .nav-button li a {
-    color: rgb(255, 0, 64);
+    color: #fafafa;
 }
 
 .socials li a i {
-    color: rgb(255, 0, 64);
+    color: #fafafa;
 }
 
 li,
@@ -59,7 +59,8 @@ header {
     justify-content: space-between;
     background-image: linear-gradient(to right, rgb(192, 1, 42), rgb(255, 70, 70));
     background-size: cover;
-    align-items: flex-end
+    align-items: center;
+    position: relative;
 }
 
 /*-------------------------------------logo/branding*/
@@ -68,7 +69,7 @@ header {
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     font-weight: 700;
-    text-shadow: 3px 3px rgba(0, 0, 0, 0.692);
+    text-shadow: 3px 1px rgba(0, 0, 0, 0.692);
     cursor: pointer;
     margin-left: 10px;
 }
@@ -85,43 +86,39 @@ nav {
     font-weight: 500;
 }
 
-nav ul {
-    margin-right: 10px;
-}
-
 nav ul li {
     display: inline-flex;
     font-size: 15px;
-    background: #fafafa;
-    border: 10px solid #fafafa;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 2px;
     cursor: pointer;
-    box-shadow: 1px 1px black;
+    text-shadow: 1px 1px rgb(0 0 0 / 69%);
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.active {
+    text-decoration: underline solid 2px;
+    font-weight: 700;
 }
 
 /*-------------------------------------social buttons*/
-
 .socials {
-    padding-right: 15px;
+    cursor: pointer;
 }
 
-.socials-pos {
-    margin-bottom: 5px;
+.socials ul {
+    display: inline-flex;
+    align-content: space-between;
+    margin-right: 10px;
 }
 
 .socials li {
     display: inline-block;
-
+    padding: 4px;
 }
 
 .socials li a {
-    font-size: 20px;
-    padding: 5px 8px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    box-shadow: 1px 1px black;
+    font-size: 1.2em;
+    text-shadow: 1px 1px rgb(0 0 0 / 69%);
 }
 
 /*-------------------------------------------------------------main*/
@@ -167,11 +164,10 @@ main {
 
 /*-----------------------------------------------------------suggested*/
 .suggested {
-    justify-content: right;
     width: 35%;
     border-left: 10px solid rgba(0, 0, 0, 0.856);
     border-radius: 15px 1px 1px 15px;
-    margin: 5px 0;
+    margin-top: 5px;
     text-align: center;
 }
 
@@ -287,16 +283,36 @@ footer {
     header {
         width: cover;
         height: 5vh;
+        margin-bottom: 20px;
     }
 
     .logo-name {
         font-size: 1.2em;
     }
 
+    nav {
+        position: absolute;
+        bottom: -19px;
+        width: 100%;
+    }
+
+    nav ul {
+        display: inline-flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
     nav ul li {
         font-size: 0.6em;
-        border: 9px solid #fafafa;
-        
+        background: none;
+        box-shadow: none;
+        border: 0;
+        text-shadow: none;
+        padding: 0;
+    }
+
+    .nav-button li a {
+        color: rgb(255, 0, 64);
     }
 
     .socials {
@@ -352,7 +368,6 @@ footer {
         border-left: none;
         padding-top: 10px;
         text-align: center;
-        margin-right: 10px;
     }
 
     h2 {
@@ -367,13 +382,13 @@ footer {
     }
 
     .sgst-thumbs span {
-        background-color: rgba(255, 255, 255, 0.856);
-        color: #000000;
-        text-align: left;
-        float: left;
+        color: #fafafa;
+        background-color: rgba(0, 0, 0, 0.658);
+        position: absolute;
+        top: 0;
+        left: 5px;
         box-shadow: 2px 2px rgb(36, 35, 35);
         margin-right: 65%;
-        border-radius: 5px 10px;
     }
 
     .sgst-thumbs p {
@@ -389,35 +404,30 @@ footer {
     .thumb2 {
         height: 120px;
         padding-top: 20px;
-        box-shadow: 0px 3px rgb(0 0 0 / 80%);
+        box-shadow: 1px 2px rgb(0 0 0 / 80%);
         margin-left: 5px;
-    }
-    .thumb1 {
         width: 40vw;
+        border-radius: 0;
+        position: relative;
     }
-    .thumb2 {
-        width: 40vw;
-    }
-    
+
     .footer-logo {
         font-size: 0.8em;
     }
 }
 
+@media screen and (min-width: 426px) {
+    .more-btn {
+        display: none;
+    }
+}
+
 /*---------------------------------------------------------phone*/
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 425px) {
 
     header {
         width: cover;
         height: 5vh;
-    }
-
-    .logo-name {
-        font-size: 1em;
-    }
-
-    .nav-button {
-        display: none;
     }
 
     .fresh {
@@ -486,8 +496,6 @@ footer {
     }
 
     .sgst-thumbs span {
-        color: #fafafa;
-        background-color: rgba(0, 0, 0, 0.658);
         text-align: left;
         box-shadow: 2px 2px rgb(36, 35, 35);
         position: absolute;
@@ -514,13 +522,16 @@ footer {
         box-shadow: 0px 3px rgb(0 0 0 / 80%);
         position: relative;
         border-radius: 0;
+        margin: 0 auto;
+        margin-bottom: 5px;
     }
 
-    .more-btn{
+    .more-btn {
         background-color: rgba(0, 0, 0, 0.658);
         color: #fafafa;
         font-size: 15px;
         width: 100%;
+        margin: 0 auto;
     }
 
     .more-btn:active {
