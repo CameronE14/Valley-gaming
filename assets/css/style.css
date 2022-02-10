@@ -202,7 +202,8 @@ main {
     width: 206px;
 }
 
-.thumb1, .thumb2, .thumb3, .thumb4 {
+.thumb1,
+.thumb2 {
     height: 200px;
     width: 450px;
     background-position: top;
@@ -213,23 +214,11 @@ main {
     position: relative;
 }
 
-.thumb3, .thumb4 {
-    display: none;
-}
-
 #thumb1-pic {
     background-image: url(/assets/images/uncharted.jpg);
 }
 
 #thumb2-pic {
-    background-image: url(/assets/images/chief.jpg);
-}
-
-#thumb3-pic {
-    background-image: url(/assets/images/chief.jpg);
-}
-
-#thumb4-pic {
     background-image: url(/assets/images/chief.jpg);
 }
 
@@ -283,6 +272,67 @@ footer {
 @media screen and (min-width: 769px) {
     .more-btn {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    main {
+        flex-direction: column;
+        margin: 0 auto;
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .suggested {
+        display: inline-flex;
+        width: 100%;
+        border-top: 3px solid rgba(0, 0, 0, 0.726);
+        border-radius: 0;
+        border-left: none;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1150px) {
+
+        .main-article {
+            display: inline-flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        #flav-text {
+            justify-content: left;
+        }
+
+        .suggested {
+            font-size: 1em;
+            justify-content: space-evenly;
+        }
+
+        .suggested hr {
+            border-left: 2px dashed rgba(0, 0, 0, 0.822);
+            width: 0;
+            margin: 5px;
+        }
+
+        #sgt-hr-1 {
+            border-top: 2px dashed rgba(0, 0, 0, 0.822);
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        .sgst-thumbs {
+            height: 100%;
+            display: inline-flex;
+            margin-top: 25px;
+        }
+
+        .thumbs-inline {
+            width: 250px;
+        }
     }
 }
 
@@ -369,6 +419,7 @@ footer {
     }
 
     .suggested {
+        flex-direction: column;
         width: 100%;
         border-top: 3px solid rgba(0, 0, 0, 0.726);
         border-radius: 0;
@@ -386,7 +437,7 @@ footer {
         height: 340px;
         margin: 0;
         height: auto;
-        
+
     }
 
     .sgst-thumbs span {
@@ -417,10 +468,6 @@ footer {
         width: 40vw;
         border-radius: 0;
         position: relative;
-    }
-
-    .thumb3, .thumb4 {
-        display: none;
     }
 
     .footer-logo {
