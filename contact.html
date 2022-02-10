@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Valley Gaming</title>
+</head>
+
+<body>
+    <header>
+        <div><a class="logo-name uppercase">Valley Gaming</a></div>
+        <!----------------------------------------------------------------------------nav start--------->
+        <nav class="nav-button">
+            <ul class="nav-list uppercase" id="dummy">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Archive</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <!-------------------------------------------------------------------------------nav end-->
+        <div class="socials">
+            <ul>
+                <li href="#"><a><i class="fab fa-twitter" aria-label="twitter"></i></a></li>
+                <li href="#"><a><i class="fab fa-instagram" aria-label="instagram"></i></a></li>
+                <li href="#"><a><i class="fab fa-twitch" aria-label="twitter"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <!------------------------------------------------------------------form-->
+    <main>
+        <form>
+            <div class="form-title">
+                <h2 class="uppercase">Suggest Content</h2>
+                <h7>Feel free to suggest games to review</h7>
+            </div>
+            <!---------------------------------------------------------------------contact details-->
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" required><br>
+            <!-----------------------------------------------------------------game info-->
+            <label for="game">Game:</label><br>
+            <input type="text" name="game" id="game" required><br>
+
+            <div class="consoles">
+                <h7>Consoles to try it on:</h7><br>
+                <input type="checkbox" name="playstation4" id="playstation4">
+                <label for="playstation4">Playstation 4</label><br>
+                <input type="checkbox" name="playstation5" id="playstation5">
+                <label for="playstation5">Playstation 5</label><br>
+                <input type="checkbox" name="xbox1" id="xbox1">
+                <label for="xbox1">Xbox One</label><br>
+                <input type="checkbox" name="xbox-sx" id="xbox-sx">
+                <label for="xbox-sx">Xbox Series S/X</label><br>
+                <input type="checkbox" name="switch" id="switch">
+                <label for="switch">Switch</label><br>
+                <input type="checkbox" name="pc" id="pc">
+                <label for="pc">PC</label><br>
+            </div>
+            <!------------------------------------------------------------------reason why text area-->
+            <label for="reason">What makes it worth a try?</label><br>
+            <textarea name="reason" id="reason" rows="5" cols="60" maxlength="500"
+                placeholder="Sell it to me"></textarea>
+
+            <button></button> 
+        </form>
+                <!------------------------------------------------------------------------------suggested side bar-->
+                <div class="suggested sgst-responsive">
+                    <div class="suggested-stories uppercase">
+                        <h2>Suggested Stories
+                            <hr id="sgt-hr-1">
+                        </h2>
+
+                        <div class="sgst-thumbs">
+                            <div class="thumbs-inline">
+                                <div id="thumb1-pic" class="thumb1" href="#" aria-label="Best playstation games"
+                                    alt="uncharted 4 promo"><span class="thumb-inside-text">
+                                        <p>Playstation Games you need to play!</p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="thumbs-inline">
+                                <div id="thumb2-pic" class="thumb2" href="#" aria-label="best xbox games"
+                                    alt="halo infinite promo"><span class="thumb-inside-text">
+                                        <p>Xbox exlusives you can't miss!</p>
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="more-btn uppercase" href="#">more...</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="hot-take uppercase">
+                        <h2><em>Next Big Release - Elden Ring</em></h2>
+                        <a class="twitter-timeline" data-width="100%" data-height="300"
+                            href="https://twitter.com/ELDENRING?ref_src=twsrc%5Etfw">ELDENRING</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+    </main>
+    <!----------------------------------------------------footer-------->
+    <footer>
+        <div class="footer-logo">
+            <a class="logo-name uppercase">VG</a>
+        </div>
+        <div class="bottomlinks">
+            <a href="#">Archive</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </div>
+        <div class="socials-footer">
+            <ul>
+                <li><a href="#"><i class="fab fa-twitter" aria-label="twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram" aria-label="instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitch" aria-label="twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
