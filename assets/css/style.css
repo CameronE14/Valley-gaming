@@ -140,8 +140,10 @@ nav ul li {
 
 main {
     display: flex;
+    height: 100%;
     justify-content: space-around;
     overflow: auto;
+
 }
 
 .hero-image {
@@ -163,6 +165,7 @@ main {
     margin-right: 15px;
     text-align: left;
 }
+
 #flav-text h4 {
     margin-bottom: 5px;
 }
@@ -183,7 +186,7 @@ form {
 }
 
 #form-title-hr {
-    border-top: #666 solid 5px;
+    border-top: #666 solid 3px;
     width: 100%;
 }
 
@@ -201,6 +204,7 @@ form {
 .consoles div {
     padding: 5px;
 }
+
 /*---------------------------------------------------------About style*/
 .about-me {
     width: 100%;
@@ -236,6 +240,42 @@ form {
 .about-text {
     margin: 5px;
 }
+
+/*-----------------------------------------------------------------archive*/
+.archive-list {
+    width: 100%;
+}
+
+.archive-title {
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.8em;
+}
+
+.archive-title hr {
+    border-top: #666 solid 3px;
+    width: 100%;
+}
+
+.archive-item {
+    background-color: #666;
+    height: 125px;
+    width: 275px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#article-1 {}
+
+#article-2 {
+    background-image: url(/assets/images/uncharted.jpg);
+}
+
+#article-3 {}
+
+#article-4 {}
+
 /*-----------------------------------------------------------suggested*/
 .suggested {
     width: 35%;
@@ -246,7 +286,7 @@ form {
 }
 
 .sgst-thumbs {
-    height: 30vh;
+    height: 40vh;
     text-align: left;
     overflow: auto;
 }
@@ -343,6 +383,12 @@ footer {
 }
 
 /*-----------------------------------media queries*/
+@media screen and (min-width: 1150px) {
+    main {
+        height: 100vh;
+    }
+}
+
 @media screen and (min-width: 769px) {
     .more-btn {
         display: none;
