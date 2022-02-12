@@ -18,6 +18,7 @@ body p {
 
 h1,
 h2,
+h3,
 h4,
 h7,
 form,
@@ -73,6 +74,7 @@ header {
     text-shadow: 3px 1px rgba(0, 0, 0, 0.692);
     cursor: pointer;
     margin-left: 10px;
+    font-size: 1.5em;
 }
 
 .logo-name hr {
@@ -90,10 +92,13 @@ nav {
 nav ul li {
     display: inline-flex;
     font-size: 15px;
-    cursor: pointer;
     text-shadow: 1px 1px rgb(0 0 0 / 69%);
     justify-content: space-evenly;
     padding: 10px;
+}
+
+nav ul li a {
+    cursor: pointer;
 }
 
 .active {
@@ -220,7 +225,6 @@ form {
 
 #profile-photo {
     margin: 10px;
-    overflow: hidden;
 }
 
 #profile-photo img {
@@ -259,14 +263,28 @@ form {
 }
 
 .archive-item {
-    background-color: #666;
+    background-color: #fafafa;
     height: 125px;
-    width: 275px;
+    width: 300px;
     margin: 20px;
-    cursor: pointer;
+    box-shadow: 2px 2px black;
+
 }
 
-#article-1 {}
+.arch-text-bg-color {
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.archive-item a,
+.archive-item p {
+    color: #fafafa;
+    margin: 1px;
+}
+
+#article-1 {
+    background-image: url(/assets/images/chief.jpg);
+
+}
 
 #article-2 {}
 
