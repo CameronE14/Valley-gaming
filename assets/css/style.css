@@ -233,7 +233,7 @@ form {
     margin-bottom: 10px;
 }
 
-#para-1 {
+.para-gap {
     margin-top: 10px;
 }
 
@@ -268,9 +268,7 @@ form {
 
 #article-1 {}
 
-#article-2 {
-    background-image: url(/assets/images/uncharted.jpg);
-}
+#article-2 {}
 
 #article-3 {}
 
