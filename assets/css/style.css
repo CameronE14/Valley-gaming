@@ -11,9 +11,6 @@
 body {
     height: 100%;
     position: relative;
-}
-
-body p {
     font-family: "Montserrat", sans-serif;
 }
 
@@ -22,6 +19,7 @@ h2,
 h3,
 h4,
 h7,
+b,
 form,
 button {
     font-family: "Montserrat", sans-serif;
@@ -132,17 +130,13 @@ nav ul li a {
 /*-------------------------------------------------------------main*/
 .fresh {
     background-color: rgba(0, 0, 0, 0.658);
+    color: #fafafa;
     width: 80px;
     height: 30px;
     margin-left: 30px;
     font-size: 0.8em;
     text-align: center;
     position: absolute;
-}
-
-.fresh p {
-    color: #fafafa;
-    text-align: center;
 }
 
 main {
@@ -174,6 +168,11 @@ main {
 
 #flav-text h4 {
     margin-bottom: 5px;
+}
+
+.flav-under {
+    font-size: 1.3em;
+
 }
 
 /*-----------------------------------------------------------form style*/
@@ -325,11 +324,12 @@ form {
     max-width: 500px;
     margin: 10px 1em 10px 1.2em;
 }
+
 .article-subject {
     max-width: 500px;
     margin-right: 10px;
     margin: 10px 1em 10px 1.2em;
-    
+
 }
 
 /*-----------------------------------------------------------suggested*/
@@ -368,8 +368,8 @@ form {
     font-size: 1.2em;
 }
 
-.thumb-outside-text {
-    width: 206px;
+.thumb-inside-text {
+    margin: 5px;
 }
 
 .thumb1,
@@ -768,6 +768,7 @@ footer {
         font-size: 15px;
         width: 100%;
         margin: 0 auto;
+        text-align: center;
     }
 
     .more-btn:active {
