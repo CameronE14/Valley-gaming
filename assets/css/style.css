@@ -59,7 +59,7 @@ a {
 /*-------------------------------------header properties*/
 
 header {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-image: linear-gradient(to right, rgb(192, 1, 42), rgb(255, 70, 70));
@@ -251,6 +251,7 @@ form {
     width: 100%;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 
 .archive-title {
@@ -407,7 +408,7 @@ form {
 
 /*--------------------------------------------------------footer*/
 footer {
-    width: 100vw;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.76);
     display: flex;
     justify-content: space-between;
@@ -705,6 +706,10 @@ footer {
 
     #flav-text p {
         display: none;
+    }
+
+    .archive-list ul li {
+        margin: 0;
     }
 
     .suggested {
