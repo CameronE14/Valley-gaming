@@ -293,7 +293,6 @@ form {
     background-image: url(/assets/images/midgar-resize.jpg);
     background-position-x: center;
     background-position-y: -67px;
-
 }
 
 #article-2 {
@@ -329,9 +328,7 @@ form {
     max-width: 500px;
     margin-right: 10px;
     margin: 10px 1em 10px 1.2em;
-
 }
-
 /*-----------------------------------------------------------suggested*/
 .suggested {
     width: 35%;
@@ -709,9 +706,15 @@ footer {
     }
 
     .archive-list ul li {
-        margin: 0;
+        margin: 8px;
     }
 
+    .archive-title {
+        width: fit-content;
+        margin-top: 10px;
+        margin-left: 8px;
+        font-size: 1.8em;
+    }
     .suggested {
         width: 100%;
         border-top: 3px solid rgba(0, 0, 0, 0.726);
