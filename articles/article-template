@@ -33,61 +33,62 @@
         </div>
     </header>
     <!------------------------------------------------------------------main content-->
-    <main>
+    <article class="article-main">
         <article class="article-title">
             <h1></h1>
-            <article class="article-subject">
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </article>
-            <article class="article-subject">
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </article>
-            <article class="article-subject">
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </article>
-            <article class="article-subject">
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </article>
-            <article class="article-subject">
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </article>
-            <article class="article-subject">
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </article>
-            <article class="article-subject">
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </article>
-            <article class="article-subject">
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </article>
-            <article class="article-subject">
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </article>
-            <article class="article-subject">
-                <img src="" alt="">
-                <h2></h2>
-                <p></p>
-            </article>
+            <p></p>
         </article>
-    </main>
+        <article class="article-subject">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+        </article>
+        <article class="article-subject">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+        </article>
+        <article class="article-subject">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+        </article>
+        <article class="article-subject">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+        </article>
+        <article class="article-subject">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+        </article>
+        <article class="article-subject">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+        </article>
+        <article class="article-subject">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+        </article>
+        <article class="article-subject">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+        </article>
+        <article class="article-subject">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+        </article>
+        <article class="article-subject">
+            <img src="" alt="">
+            <h2></h2>
+            <p></p>
+        </article>
+    </article>
     <!----------------------------------------------------footer-------->
     <footer>
         <div class="footer-logo">

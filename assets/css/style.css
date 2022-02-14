@@ -59,6 +59,7 @@ a {
 /*-------------------------------------header properties*/
 
 header {
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     background-image: linear-gradient(to right, rgb(192, 1, 42), rgb(255, 70, 70));
@@ -313,6 +314,23 @@ form {
     background-position-y: -96px;
 }
 
+/*--------------------------------------------------------article styling*/
+.article-main {
+    width: 100%;
+    font-size: 1.15em;
+}
+
+.article-title {
+    max-width: 500px;
+    margin: 10px 1em 10px 1.2em;
+}
+.article-subject {
+    max-width: 500px;
+    margin-right: 10px;
+    margin: 10px 1em 10px 1.2em;
+    
+}
+
 /*-----------------------------------------------------------suggested*/
 .suggested {
     width: 35%;
@@ -389,6 +407,7 @@ form {
 
 /*--------------------------------------------------------footer*/
 footer {
+    width: 100vw;
     background-color: rgba(0, 0, 0, 0.76);
     display: flex;
     justify-content: space-between;
@@ -491,7 +510,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     header {
-        width: cover;
+        width: 100%;
         height: 5vh;
         margin-bottom: 20px;
     }
@@ -638,7 +657,7 @@ footer {
 @media screen and (max-width: 425px) {
 
     header {
-        width: cover;
+        width: 100%;
         height: 5vh;
     }
 
