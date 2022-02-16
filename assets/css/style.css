@@ -290,19 +290,19 @@ form {
 }
 
 #article-1 {
-    background-image: url(./assets/images/ff7main.jpg);
+    background-image: url(images/ff7main.jpg);
     background-position-x: center;
     background-position-y: -159px;
 }
 
 #article-2 {
-    background-image: url(./assets/images/pslogo-resize.png);
+    background-image: url(../assets/images/pslogo-resize.png);
     background-position-x: center;
     background-position-y: -55px;
 }
 
 #article-3 {
-    background-image: url(./assets/images/xbox1-resize.png);
+    background-image: url(./images/xbox1-resize.png);
     background-position-x: center;
     background-position-y: -60px;
 }
