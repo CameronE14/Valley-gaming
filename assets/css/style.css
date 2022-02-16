@@ -290,9 +290,9 @@ form {
 }
 
 #article-1 {
-    background-image: url(/assets/images/midgar-resize.jpg);
+    background-image: url(/assets/images/ff7main.jpg);
     background-position-x: center;
-    background-position-y: -67px;
+    background-position-y: -159px;
 }
 
 #article-2 {
@@ -315,13 +315,29 @@ form {
 
 /*--------------------------------------------------------article styling*/
 .article-main {
+    display: flex;
     width: 100%;
     font-size: 1.15em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-main h1,
+h2 {
+    margin-bottom: 5px;
 }
 
 .article-title {
     max-width: 500px;
     margin: 10px 1em 10px 1.2em;
+    padding-bottom: 5px;
+    border-bottom: 3px dashed black;
+}
+
+.article-title img {
+    width: 100%;
+    box-shadow: 2px 2px black;
+    margin-top: 20px;
 }
 
 .article-subject {
@@ -329,6 +345,23 @@ form {
     margin-right: 10px;
     margin: 10px 1em 10px 1.2em;
 }
+
+.game-vid {
+    width: 100%;
+    margin-top: 15px;
+}
+
+#first-place {
+    background-image: linear-gradient(to right, rgb(192, 1, 42), rgb(255, 70, 70));
+    padding: 50px;
+    color: #fafafa;
+}
+
+#first-place img {
+    width: 100%;
+    box-shadow: 2px 2px black;
+}
+
 /*-----------------------------------------------------------suggested*/
 .suggested {
     width: 35%;
@@ -715,6 +748,7 @@ footer {
         margin-left: 8px;
         font-size: 1.8em;
     }
+
     .suggested {
         width: 100%;
         border-top: 3px solid rgba(0, 0, 0, 0.726);
