@@ -302,7 +302,7 @@ form {
 }
 
 #article-3 {
-    background-image: url(/assets/images/xbox1-resize.png);
+    background-image: url(../assets/images/xbox1-resize.png);
     background-position-x: center;
     background-position-y: -60px;
 }
