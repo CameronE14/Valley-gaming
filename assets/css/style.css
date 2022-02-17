@@ -482,6 +482,10 @@ footer {
     .more-btn {
         display: none;
     }
+
+    #flav-text {
+        font-size: 2.5em;
+    }
 }
 
 @media screen and (max-width: 1150px) {
