@@ -290,7 +290,7 @@ form {
 }
 
 #article-1 {
-    background-image: url(/images/ff7main.jpg);
+    background-image: url(../images/ff7main.jpg);
     background-position-x: center;
     background-position-y: -159px;
 }
@@ -302,13 +302,13 @@ form {
 }
 
 #article-3 {
-    background-image: url(/assets/images/xbox1-resize.png);
+    background-image: url(../images/xbox1-resize.png);
     background-position-x: center;
     background-position-y: -60px;
 }
 
 #article-4 {
-    background-image: url(/Valley-gaming/assets/images/hollowknight-111-resize.png); 
+    background-image: url(../images/hollowknight-111-resize.png); 
     background-position-x: center;
     background-position-y: -96px;
 }
@@ -414,12 +414,12 @@ h2 {
 }
 
 #thumb1-pic {
-    background-image: url(/assets/images/pslogo-resize.png);
+    background-image: url(../images/pslogo-resize.png);
     background-position: center;
 }
 
 #thumb2-pic {
-    background-image: url(/assets/images/xbox1-resize.png);
+    background-image: url(../images/xbox1-resize.png);
     background-position: center;
 }
 
