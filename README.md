@@ -80,7 +80,8 @@ The only warning I have currently are for my use of aria-labels for my twitter,i
 ---
 # Credits
 
-  mention photophop, IGDB for presskit photos, google devoloper tools, Am I responsive, W3C HTML Validator & Jigsaw CSS Validator, google fonts
+  mention photophop, IGDB for presskit photos, google devoloper tools, Am I responsive, W3C HTML Validator & Jigsaw CSS Validator, google fonts, balsamiq wireframes
+  mentor
   
 # Learnings and Challenges
   
