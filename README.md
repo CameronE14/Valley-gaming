@@ -80,9 +80,18 @@ The only warning I have currently are for my use of aria-labels for my twitter,i
 ---
 # Credits
 
-  mention photophop, IGDB for presskit photos, google devoloper tools, Am I responsive, W3C HTML Validator & Jigsaw CSS Validator, google fonts, balsamiq wireframes
-  mentor
+- Photoshop: Image resizing mostly
+- [IGDB](https://www.igdb.com/): Presskit photos and videos to include in articles
+- Chrome Developer Tools: This was extremely helpful for testing changes quickly without changing the workspace.
+- [Am I Responsive?](http://ami.responsivedesign.is/): This was very helpful for seeing what my website looked after deployment.
+- W3C HTML Validator & Jigsaw CSS Validator for testing and debugging.
+- Google Fonts: This site uses Montserrat thanks to google fonts easy integration.
+- Balsamiq Wireframes: This software was used to 'build' my website before any html/css was ever wrote. I tried to stick as close as possible to these initial designs.
   
 # Learnings and Challenges
+   
+One of the biggest challenges I had was trying to get the Nav bar to be responsive inside the Header. I would of liked to have a drop down menu to include the nav links, but I found myself spending too much time trying to incorporate it. With that said, I think I prefer the design of my current nav bar while responsive.
   
-******mention learning flexbox and talk about struggling with getting the nav bar to work for quite a while and image resizing********
+Another challenge I had was trying to get the images to scale responsively. This is something I eventually overcome and you'll find most of the article images are fully responsive as these sections were designed at the latter half of the site building/styling.
+  
+Another challenge I learnt from would be the use of Flex. Thanks to this flexbox guide - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ I became quite apt with styling and structuring using flex and Chrome Dev Tools
