@@ -33,6 +33,12 @@ The front end of this form is complete, but the information submitted goes nowhe
 I've included this section for anyone that would be interested in reading my experience in playing games and the passion I have for the industry.
 I very much doubt this section will ever change, unless the site grows large enough for other people to become involved in the content.
 
+## Articles
+
+I'm super proud of my work on these.
+While the "journalism" may not be top tier, I love the way the styling turned out. 
+I have also left a article template that can be easily copied across and you can add more article elements inside this template by copying the html provided.
+
 ### Testing
 
 For my testing I used HTML Validator and CSS Validator.
