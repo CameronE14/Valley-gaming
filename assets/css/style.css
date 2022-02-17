@@ -476,6 +476,10 @@ footer {
     body {
         height: 100vh;
     }
+
+    #flav-text {
+        font-size: 2.5em;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -484,7 +488,7 @@ footer {
     }
 
     #flav-text {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 }
 
