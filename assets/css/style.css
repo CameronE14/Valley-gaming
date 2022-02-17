@@ -308,7 +308,7 @@ form {
 }
 
 #article-4 {
-    background-image: url(../images/hollowknight-111-resize.png); 
+    background-image: url(../images/hollowknight-111-resize.png);
     background-position-x: center;
     background-position-y: -96px;
 }
@@ -471,6 +471,12 @@ footer {
 }
 
 /*-----------------------------------media queries*/
+
+@media screen and (min-width: 1441px) {
+    body {
+        height: 100vh;
+    }
+}
 
 @media screen and (min-width: 769px) {
     .more-btn {
