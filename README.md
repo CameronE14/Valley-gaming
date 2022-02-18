@@ -1,12 +1,16 @@
 <h1 align=center> Valley Gaming </h1>
 
-[Valley-Gaming](https://camerone14.github.io/Valley-gaming/)
+Deployed Site - [Valley-Gaming](https://camerone14.github.io/Valley-gaming/)
 
 This is my where you'll find my Gaming news/highlight website. The hope for this website is for it to become a hub for small indi game news, mostly grass roots developers. I will hopefully get dedicated writers with talent for capturing and conveying the scope of these big projects from little companies. In the mean time, there will be plenty of easy to digest lists on there.
 
 This site is mainly targeted at core gaming audiences and people with a passion for indi game development.
 
 ***insert site picture***
+---
+<h1 align=center> User Stories </h1>
+- 
+
 ---
 <h1 align=center> Features </h1>
   So, we've got our landing page which acts as a hub for the most recent headline article and there will be suggested content that will contain usually 2 articles.
@@ -62,7 +66,7 @@ This site is mainly targeted at core gaming audiences and people with a passion 
 ***insert responsive photo***
 
 - For my testing I used the W3C HTML Validator and CSS Validator.
-  Please find links for both sites here - [html validator](https://validator.w3.org/) & [css validator](https://jigsaw.w3.org/css-validator/)
+  Please find links for both sites here - [HTML Validator](https://validator.w3.org/) & [CSS validator](https://jigsaw.w3.org/css-validator/)
 
 - The HTML validator helped with debuging href links inside of images.
 I now know that I need to wrap a <img> inside of an <a> tag to allow it to be a clickable link.
