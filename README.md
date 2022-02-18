@@ -106,6 +106,12 @@ It also notified my of my use of H7. I then realised H7 onwards are not symantic
  
 
  - I would also like to make note of a bug in the 'Contact' section. This seems to be only on mobile device, but when hitting submit on the form with incomplete required data. There seems to be a small lightly opaque black line that appears. I haven't quite had the time to figure out whats going on there yet.
+  
+### Deployment
+  
+  This site has been deployed using GitHub Pages.
+  More information on GitHub Pages can be found here https://pages.github.com/
+  
 ---
 # Credits
 
