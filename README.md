@@ -6,7 +6,7 @@ This is my where you'll find my Gaming news/highlight website. The hope for this
 
 This site is mainly targeted at core gaming audiences and people with a passion for indi game development.
 
-***insert site picture***
+![am i responsive](/assets/images/responsive.png)
 ---
 <h1 align=center> User Stories </h1>
 - 
@@ -16,6 +16,7 @@ This site is mainly targeted at core gaming audiences and people with a passion 
   So, we've got our landing page which acts as a hub for the most recent headline article and there will be suggested content that will contain usually 2 articles.
   There's a contact section for suggestions, about page for some info on myself and finall there's the archive section which will hold all previous articles.
 
+![desktop contact wireframe](/assets/images/index-desktop.png)
 ## Landing Page
 
   Here you'll find the main article and suggested content and a twitter feed of my selected "next big release" which will show a live feed of a large game developers twitter.
@@ -56,10 +57,13 @@ This site is mainly targeted at core gaming audiences and people with a passion 
   
 ## General Stlyes
   ***add details about colour and font***
+- General colors: Gradient Red, Black/Dark Grey, White
+- Font: Montserrat (Google Fonts)
 
 <h1 align=center> Wireframes </h1>
 
-***************Needs to be inserted**************
+### Software: Balsamiq
+  - This software was used to 'build' my website before any html/css was ever wrote. I tried to stick as close as possible to these initial designs. I've included some images to support this.
 
 <h1 align=center> Testing </h1>
 
@@ -90,7 +94,7 @@ The only warning I have currently are for my use of aria-labels for my twitter,i
 - [Am I Responsive?](http://ami.responsivedesign.is/): This was very helpful for seeing what my website looked after deployment.
 - W3C HTML Validator & Jigsaw CSS Validator for testing and debugging.
 - Google Fonts: This site uses Montserrat thanks to google fonts easy integration.
-- Balsamiq Wireframes: This software was used to 'build' my website before any html/css was ever wrote. I tried to stick as close as possible to these initial designs.
+- Balsamiq Wireframes
   
 # Learnings and Challenges
    
