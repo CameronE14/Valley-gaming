@@ -81,6 +81,8 @@ It also notified my of my use of H7. I then realised H7 onwards are not symantic
 
 - Thankfully, my CSS was free from any errors.
   
+- This site has also achieved 90+ accessibilty on Lighthouse
+  
 - I did come across some issues while trying to deploy it through GitHub Pages. The issues I had, involved no images loading on my site. After lots of trouble shooting, I discovered that the issue came from incorrect paths in the directory. While it was working on the local host, when I actually deployed the site, thats when I picked up the issue.
   
 ## Testing User Stories
